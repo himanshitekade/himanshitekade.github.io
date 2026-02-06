@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshi | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+  <div class="menu-toggle" id="menuToggle">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+       <!-- ADD THIS -->
+      <li><a href="Resume.pdf" download class="download-cv">
+          Download CV </a></li>
+    </ul>
+  </nav>
+
+  <div class="actions">
+    <a href="Resume.pdf" download class="btn-outline">
+      Download CV
+    </a>
+    <i class="fa-solid"></i>
+  </div>
+</header>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h2>HIMANSHI TEKADE,</h2>
+
+    <h1>
+      <span class="static-text">DEVOPS</span><br>
+      <span id="typing-text"></span><span class="cursor">|</span>
+    </h1>
+
+    <p>
+      SPECIALIZING IN AWS CLOUD, DEVOPS AUTOMATION, CI/CD PIPELINES, AND BUILDING SCALABLE AND RELIABLE CLOUD INFRASTRUCTURE.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+
+    <div class="follow">
+      <div class="follow-icons">
+        <!-- Github -->
+        <a href="https://github.com/himanshitekade" target="_blank"><i class="fab fa-github"></i></a>
+
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/himanshi-tekade-cloud-devops/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+        <!-- Email -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himanshitekade.work@gmail.com" target="_blank" class="email-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll" id="scrollDown">
+  Scroll down
+  <i class="fa-solid fa-chevron-down"></i>
+</div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about">
+  <div class="about-header">
+    <h1>About Me</h1>
+    <p>Get to know the person behind the code</p>
+  </div>
+
+  <div class="about-content">
+    <div class="about-image">
+      <img src="Himanshi.png" alt="Profile">
+      <div class="code-icon">
+        <i class="fa-solid fa-code"></i>
+      </div>
+    </div>
+
+    <div class="about-text">
+        <p class="intro">
+          Hello! I'm <strong>Himanshi Tekade</strong>, an AWS Cloud and DevOps Engineer with 2 years of hands-on experience in software development, cloud computing, and deployment automation.
+        </p>
+
+        <p>
+          I have practical experience working with Amazon Web Services including EC2, S3, IAM, VPC, RDS, Auto Scaling, Route 53, and CloudWatch. I focus on designing secure, scalable, and reliable cloud environments, and implementing Infrastructure as Code using Terraform to automate infrastructure provisioning.
+        </p>
+
+        <p>
+          My background in web development using Python and Django has helped me build and deploy real-world applications, giving me strong understanding of application architecture, containerization, and cloud deployments.
+        </p>
+
+        <p>
+          I have also worked with DevOps tools such as Docker, Jenkins, Kubernetes, Git, and CI/CD pipelines to automate application deployment and improve system reliability.
+        </p>
+
+      <div class="about-meta">
+        <div class="meta-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Nagpur, India</span>
+        </div>
+        <div class="meta-item">
+          <i class="fa-solid fa-calendar"></i>
+          <span>Focused on Current Role</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="skills">
+  <div class="skills-header">
+    <h1>Skills & Technologies</h1>
+    <p>
+      A comprehensive overview of my technical expertise in cloud computing, DevOps, automation, and infrastructure management.
+    </p>
+  </div>
+
+  <div class="skills-category">
+    <h2>Cloud & AWS</h2>
+    <span>Designing, deploying, and managing scalable cloud infrastructure using AWS</span>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="devicon-amazonwebservices-plain colored"></i>
+      <h3>AWS EC2</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-amazonwebservices-plain colored"></i>
+      <h3>AWS S3</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-amazonwebservices-plain colored"></i>
+      <h3>AWS IAM</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-amazonwebservices-plain colored"></i>
+      <h3>AWS VPC</h3>
+      <div class="bar"><span class="w-95"></span></div>
+      <small>Intermediate</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-amazonwebservices-plain colored"></i>
+      <h3>AWS RDS</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Intermediate</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-docker-plain colored"></i>
+      <h3>Docker</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-jenkins-line colored"></i>
+      <h3>Jenkins</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-terraform-plain colored"></i>
+      <h3>Terraform</h3>
+      <div class="bar"><span class="w-70"></span></div>
+      <small>Intermediate</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-kubernetes-plain colored"></i>
+      <h3>Kubernetes</h3>
+      <div class="bar"><span class="w-95"></span></div>
+      <small>Intermediate</small>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-jenkins-line colored"></i>
+      <h3>CI/CD Pipelines</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-github-original"></i>
+      <h3>Git & GitHub</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-linux-plain colored"></i>
+      <h3>Linux</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Advanced</small>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-bash-plain colored"></i>
+      <h3>Bash Scripting</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Intermediate</small>
+    </div>
+    <div class="skill-card">
+      <i class="devicon-python-plain colored"></i>
+      <h3>Python</h3>
+      <div class="bar"><span class="w-85"></span></div>
+      <small>Intermediate</small>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="projects">
+  <div class="projects-header">
+    <h1>Featured Projects</h1>
+    <p>
+      A collection of my recent work, showcasing various technologies and
+      problem-solving approaches
+    </p>
+  </div>
+
+  <!-- Search + Filters -->
+  <div class="projects-controls">
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="projectSearch" placeholder="Search projects..." />
+    </div>
+
+    <div class="language-filter">
+      <button class="filter-btn" id="languageBtn">
+        <i class="fa-solid fa-filter"></i> Languages
+      </button>
+
+      <div class="language-dropdown" id="languageDropdown">
+        <h4>Filter by Language</h4>
+        <ul>
+          <li data-lang="all">All</li>
+          <li data-lang="aws">AWS</li>
+          <li data-lang="docker">Docker</li>
+          <li data-lang="kubernetes">Kubernetes</li>
+          <li data-lang="jenkins">Jenkins</li>
+          <li data-lang="terraform">Terraform</li>
+          <li data-lang="cicd">CI/CD</li>
+          <li data-lang="bash">Bash</li>
+          <li data-lang="python">Python</li>
+          <li data-lang="linux">Linux</li>
+          <li data-lang="django">Django</li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="refresh-btn" id="refreshProjects">
+      <i class="fa-solid fa-rotate"></i> Refresh
+    </button>
+  </div>
+
+  <p class="projects-count">
+    Showing <span id="projectCount">3</span> of 3 projects
+  </p>
+
+  <!-- PROJECT GRID -->
+  <div class="projects-grid" id="projectsGrid">
+
+    <!-- CARD 1 -->
+    <div class="project-card" data-lang="aws docker kubernetes jenkins cicd">
+      <div class="project-top">
+        <h3>Automated Cloud Deployment</h3>
+      </div>
+
+      <p class="project-desc">Built a fully automated CI/CD pipeline using Jenkins, Docker, and Kubernetes (EKS). Automated image build, push to Docker Hub, and deployment on AWS EKS using secure VPC, IAM roles, and scalable infrastructure.</p>
+
+      <div class="progress">
+        <span style="width: 100%"></span>
+      </div>
+
+      <div class="project-meta">
+        <span><i class="devicon-amazonwebservices-plain colored"></i> AWS</span>
+        <span><i class="devicon-jenkins-line colored"></i> Jenkins</span>
+        <span><i class="devicon-docker-plain colored"></i> Docker</span>
+        <span><i class="devicon-kubernetes-plain colored"></i> Kubernetes</span>
+      </div>
+
+      <!-- <div class="project-links">
+        <a href="#"><i class="fab fa-github"></i> Code</a>
+      </div> -->
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="project-card" data-lang="python django web">
+      <div class="project-top">
+        <h3>Dynamic Forms Automation Tool</h3>
+      </div>
+
+      <p class="project-desc">
+         Built a Django-based automation tool that dynamically generates forms, CRUD operations, and database models from JSON input, reducing manual development effort and improving deployment efficiency.
+      </p>
+
+      <div class="progress">
+        <span style="width: 100%"></span>
+      </div>
+
+      <div class="project-meta">
+        <span><i class="devicon-python-plain colored"></i> Python</span>
+        <span><i class="devicon-django-plain colored"></i> Django</span>
+        <span><i class="devicon-mysql-plain colored"></i> Database</span>
+        <span><i class="devicon-git-plain colored"></i> Git</span>
+      </div>
+
+      <!-- <div class="project-links">
+        <a href="#"><i class="fab fa-github"></i> Code</a>
+      </div> -->
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="project-card" data-lang="docker kubernetes linux" >
+      <div class="project-top">
+        <h3>Hostel Management Kubernetes Deployment</h3>
+      </div>
+
+      <p class="project-desc">
+        Deployed a containerized Java-based Hostel Management System using Docker and Kubernetes. Created Deployment and Service manifests, exposed the application via NodePort, and successfully hosted it on a Kubernetes cluster.
+      </p>
+
+      <div class="progress">
+        <span style="width: 100%"></span>
+      </div>
+
+      <div class="project-meta">
+        <span><i class="fa-brands fa-docker"></i> Docker</span>
+        <span><i class="devicon-kubernetes-plain"></i> Kubernetes</span>
+        <span><i class="fa-solid fa-server"></i> DevOps</span>
+      </div>
+
+      <!-- <div class="project-links">
+        <a href="#"><i class="fab fa-github"></i> Code</a>
+      </div> -->
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+
+  <div class="contact-header">
+    <h1>Get In Touch</h1>
+    <p>
+      Have an AWS, DevOps, or cloud-related opportunity or project? I'd be happy to connect and discuss how I can contribute.
+    </p>
+  </div>
+
+  <div class="contact-content">
+
+  <!-- TEXT -->
+  <div class="contact-info-text">
+    <h2>Let's Connect</h2>
+    <p class="contact-subtext">
+      I'm focused on developing practical skills in AWS, infrastructure automation, and CI/CD. I'm eager to collaborate, gain hands-on experience, and grow as a cloud and DevOps professional.
+    </p>
+  </div>
+
+  <!-- ALL CARDS IN SAME CONTAINER -->
+  <div class="contact-info">
+
+    <div class="info-card">
+      <i class="fa fa-envelope"></i>
+      <div>
+        <h4>Email</h4>
+        <span>himanshitekade.work@gmail.com</span>
+      </div>
+    </div>
+
+    <!-- <div class="info-card">
+      <i class="fa fa-phone"></i>
+      <div>
+        <h4>Phone</h4>
+        <span>+91 8806869607</span>
+      </div>
+    </div> -->
+
+    <div class="info-card">
+      <i class="fa fa-map-marker"></i>
+      <div>
+        <h4>Location</h4>
+        <span>Nagpur, Maharashtra</span>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- FOLLOW -->
+    <div class="follow">
+      <h4>Follow Me</h4>
+      <div class="follow-icons">
+        <!-- icons -->
+          <a href="https://github.com/himanshitekade" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/himanshi-tekade-cloud-devops/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himanshitekade.work@gmail.com" target="_blank" class="email-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="contact-footer">
+
+    <div class="footer-bottom">
+      <span>© 2026 Himanshi Tekade. All rights reserved.</span>
+      <span>Powered by <strong>Github pages</strong></span>
+    </div>
+  </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</body>
+</html>
